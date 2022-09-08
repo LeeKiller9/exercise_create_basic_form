@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 400px;
+    margin: 30px auto;
+    border-top: 10px solid lightblue;
+    border-bottom: 10px solid lightblue;
+    border-left: 15px solid lightblue;
+    border-right: 15px solid lightblue;
+}
+
+h3 {
+    width: 350px;
+    margin: 10px auto;
+    padding-top: 5px;
+    text-align: center;
+    background-color: orangered;
+    color: white;
+    font-weight: lighter;
+    height: 30px;
+}
+
+form {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+fieldset {
+    border: none;
+}
+
+.name_email label, .heading {
+    display: inline-block;
+    width: 70px;
+    text-align: right;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    color: blue;
+    font-size: 15px;
+}
+
+.name_email input {
+    width: 70%;
+}
+
+.option {
+    width: 250px;
+    display: inline-block;
+    margin-left: 80px;
+    margin-top: -22px;
+    margin-bottom: 10px;
+}
+
+.option label {
+    color: orange;
+    font-size: smaller;
+    display: inline-block;
+    width: 80px;
+}
+
+input[type=submit] {
+    margin-left: 80px;
+    margin-right: 10px;
+}
+
+input[type=checkbox] {
+    margin-right: 5px;
+}

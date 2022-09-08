@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sở thích</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <h3>SỞ THÍCH CỦA BẠN</h3>
+    <form action="#">
+        <fieldset class="name_email">
+            <label for="name">Họ và tên</label><input type="text" id="name" name="your_name">
+            <label for="email">Email</label><input type="email" id="email" name="email">
+        </fieldset>
+        <fieldset class="hobby">
+            <label class="heading">Sở thích</label>
+            <div class="option">
+                <label for="sport"><input type="checkbox" id="sport" name="hobby">Thể thao</label>
+                <label for="music"><input type="checkbox" id="music" name="hobby">Âm nhạc</label>
+                <label for="read_book"><input type="checkbox" id="read_book" name="hobby">Đọc sách</label>
+                <label for="use_internet"><input type="checkbox" id="use_internet" name="hobby">Lướt web</label>
+                <label for="game"><input type="checkbox" id="game" name="hobby">Chơi game</label>
+                <label for="film"><input type="checkbox" id="film" name="hobby">Điện ảnh</label>
+                <label for="travel"><input type="checkbox" id="travel" name="hobby">Du lịch</label>
+            </div>
+        </fieldset>
+        <input type="submit" value="Gửi thông tin">
+        <input type="reset" value="Nhập lại">
+    </form>
+</div>
+</body>
+</html>
